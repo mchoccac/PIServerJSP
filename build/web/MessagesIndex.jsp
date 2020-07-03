@@ -120,9 +120,37 @@
                         </form>
                     </tr>                    
                 </tbody>
-        </table>
+        </table>        
+
         </div>   
-        
+
+        <center>
+            
+            <table>
+                <tr>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                </tr>
+                <tr>
+                    <td>
+                        <form method="post" action="index.jsp">
+                            <button class="btn btn-success">Back Credential</button>
+                        </form>
+                    </td>
+                  <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                  <td>
+                        <form method="post" action="Registration.jsp">
+                            <button class="btn btn-info">Back Login ...</button>
+                        </form>                        
+                  </td>
+                </tr>
+            </table>
+                        
+
+ 
+        </center>                    
+
     <script type="text/javascript">
         $(document).ready( function () {
             $('#table_id').DataTable({
