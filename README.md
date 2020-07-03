@@ -1,4 +1,4 @@
-# PIServerJSP init
+# Front-end-JSP init
 ###### NetBeans IDE
 Se uso la version 8.0.2
 1. Durante la instalacion se selecciono Tomcat
