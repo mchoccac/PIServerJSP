@@ -22,18 +22,18 @@
 		</div>
                 <div class="container">
 			<div class="panel panel-primary">
-			        <form class="form-horizontal" method="get" action="Registration.jsp">
+			        <form class="form-horizontal" method="post" action="Registration.jsp">
                                 <div class="card-body">
                                   <div class="form-group row">
                                     <label for="inputEmail3" class="col-sm-2 col-form-label">Key</label>
                                     <div class="col-sm-10">
-                                      <input type="text" class="form-control" id="KeyKey" placeholder="Key">
+                                      <input type="text" class="form-control" name="KeyKey" id="KeyKey" placeholder="Key" required="required">
                                     </div>
                                   </div>
                                   <div class="form-group row">
                                     <label for="inputPassword3" class="col-sm-2 col-form-label">Shared Secret</label>
                                     <div class="col-sm-10">
-                                      <input type="password" class="form-control" id="shared_secret" placeholder="Shared Secret">
+                                      <input type="password" class="form-control" name="shared_secret" id="shared_secret" placeholder="Shared Secret" required="required">
                                     </div>
                                   </div>
                                 </div>
